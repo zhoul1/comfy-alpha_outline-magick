@@ -42,7 +42,7 @@
 | **`magick_exe`** | `STRING` | （可选）ImageMagick 可执行文件的绝对路径，留空则自动检测。 |
 | **`filename_prefix`** | `STRING` | 保存文件的名称前缀。默认：`alpha_outline`。 |
 | **`subfolder`** | `STRING` | 在 ComfyUI 输出目录下的子文件夹名称。 |
-| **`invert_mask`** | `BOOLEAN` | 保存时是否反转 Alpha 通道。 |
+| **`trim_transparent`** | `BOOLEAN` | 是否去除多余透明像素并保留1像素边框。 |
 
 > **说明**：本节点是**输出节点**，**没有输出端口**。所有处理结果以 `{前缀}_orig_{序号:05d}.png` 格式自动保存到 ComfyUI 的输出目录。
 

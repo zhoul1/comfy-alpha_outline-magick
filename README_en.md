@@ -40,7 +40,7 @@ The search order for finding `magick` / `magick.exe` is:
 | **`magick_exe`** | `STRING` | (Optional) Explicit path to ImageMagick executable. |
 | **`filename_prefix`** | `STRING` | Base name prefix for saved files. Default: `alpha_outline`. |
 | **`subfolder`** | `STRING` | Subfolder inside ComfyUI's output directory. |
-| **`invert_mask`** | `BOOLEAN` | Invert the alpha channel when saving. |
+| **`trim_transparent`** | `BOOLEAN` | Trim transparent pixels and keep 1px border. |
 
 > **Note**: This is an Output Node — it has **no output ports**. All results are saved as RGBA PNG files named `{prefix}_orig_{counter:05d}.png`.
 
